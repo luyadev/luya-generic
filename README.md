@@ -1,2 +1,9 @@
-# luya-generic-blocks
-LUYA Generic blocks without css framework depencies
+# LUYA Generic
+
+**WIP**
+
+Contains generic frontend content:
+
++ blocks
++ ...
++ ..

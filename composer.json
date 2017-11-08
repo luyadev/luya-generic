@@ -1,0 +1,41 @@
+{
+    "name" : "luyadev/luya-generic",
+    "description" : "Generic LUYA Blocks",
+    "type" : "luya-extension",
+    "keywords" : ["luya-blocks"],
+    "license": "MIT",
+    "homepage" : "https://luya.io",
+    "authors" : [
+        {
+            "name" : "Basil Suter",
+            "email" : "git@nadar.io",
+            "homepage" : "https://github.com/nadar"
+        }
+    ],
+    "support" : {
+        "issues" : "https://github.com/luyadev/luya/issues"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "luya\\generic\\" : "src/",
+            "luya\\generic\\tests\\" : "tests/",
+            "luya\\testsuite\\" : "../luya-testsuite/src"
+        }
+    },
+    "extra": {
+        "luya" : {
+            "blocks" : [
+                "src/blocks"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "require-dev": {
+        "luyadev/luya-testsuite": "~1.0.0",
+        "luyadev/luya-module-cms" : "^1.0@dev",
+        "luyadev/luya-core" : "^1.0@dev",
+        "luyadev/luya-module-admin" : "^1.0@dev"
+    }
+}
