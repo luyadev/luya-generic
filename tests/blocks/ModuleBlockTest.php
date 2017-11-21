@@ -2,12 +2,27 @@
 
 namespace cmstests\src\frontend\blocks;
 
+use Yii;
 use luya\generic\blocks\ModuleBlock;
 use luya\generic\tests\GenericBlockTestCase;
 
 class ModuleBlockTest extends GenericBlockTestCase
 {
     public $blockClass = 'luya\generic\blocks\ModuleBlock';
+    
+    /*
+    public function afterSetup()
+    {
+        parent::afterSetup();
+
+        Yii::$app->setModule('CmsUnitModule', [
+            'class' => 'luya\generic\tests\data\modules\CmsUnitModule',   
+        ]);
+        
+        $ctrl = Yii::$app->getModule('CmsUnitModule')->getControllerFiles();
+        var_dump($ctrl);
+    }
+    */
     
     public function testEmptyRender()
     {

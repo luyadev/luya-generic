@@ -18,8 +18,7 @@
     "autoload" : {
         "psr-4" : {
             "luya\\generic\\" : "src/",
-            "luya\\generic\\tests\\" : "tests/",
-            "luya\\testsuite\\" : "../luya-testsuite/src"
+            "luya\\generic\\tests\\" : "tests/"
         }
     },
     "extra": {
@@ -33,7 +32,7 @@
         }
     },
     "require-dev": {
-        "luyadev/luya-testsuite": "~1.0.0",
+        "luyadev/luya-testsuite": "^1.0@dev",
         "luyadev/luya-module-cms" : "^1.0@dev",
         "luyadev/luya-core" : "^1.0@dev",
         "luyadev/luya-module-admin" : "^1.0@dev"

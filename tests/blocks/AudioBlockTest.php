@@ -2,6 +2,7 @@
 
 namespace luya\generic\tests\blocks;
 
+use Yii;
 use luya\generic\tests\GenericBlockTestCase;
 
 class AudioBlockTest extends GenericBlockTestCase
@@ -10,7 +11,7 @@ class AudioBlockTest extends GenericBlockTestCase
     
     public function testEmpty()
     {
-        $this->assertSame('asdf', $this->block->name());
+        $this->assertSame('Audio', $this->block->name());
         $this->assertSame('', $this->block->renderFrontend());
     }
     

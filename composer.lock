@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "98b8a891cafa1f3c5a8cd6a09e6c6345",
+    "content-hash": "db78ec4d148e7ab04264705507ed931c",
     "packages": [],
     "packages-dev": [
         {
@@ -41,16 +41,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.3.10",
+            "version": "3.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/Inputmask.git",
-                "reference": "14873e5775964275d13621cbe2b52e4448af3707"
+                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/14873e5775964275d13621cbe2b52e4448af3707",
-                "reference": "14873e5775964275d13621cbe2b52e4448af3707",
+                "url": "https://api.github.com/repos/RobinHerbots/Inputmask/zipball/5e670ad62f50c738388d4dcec78d2888505ad77b",
+                "reference": "5e670ad62f50c738388d4dcec78d2888505ad77b",
                 "shasum": ""
             },
             "require": {
@@ -97,7 +97,7 @@
                 "mask",
                 "plugins"
             ],
-            "time": "2017-10-16T09:33:03+00:00"
+            "time": "2017-11-21T11:46:23+00:00"
         },
         {
             "name": "bower-asset/punycode",
@@ -544,12 +544,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-core.git",
-                "reference": "6ec60062444dda0b4c5e8cc5a5ee4e30d0689f49"
+                "reference": "15fa982742b1ad83b35e43599c5328186af09671"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/6ec60062444dda0b4c5e8cc5a5ee4e30d0689f49",
-                "reference": "6ec60062444dda0b4c5e8cc5a5ee4e30d0689f49",
+                "url": "https://api.github.com/repos/luyadev/luya-core/zipball/15fa982742b1ad83b35e43599c5328186af09671",
+                "reference": "15fa982742b1ad83b35e43599c5328186af09671",
                 "shasum": ""
             },
             "require": {
@@ -593,7 +593,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-11-05T12:42:37+00:00"
+            "time": "2017-11-21T11:26:44+00:00"
         },
         {
             "name": "luyadev/luya-module-admin",
@@ -601,12 +601,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-admin.git",
-                "reference": "d40e27d8851b13e4b96131eb271a6e3cf0945cb1"
+                "reference": "67721d706ba994c4e9fff3a3ac7abc53a6fbc1f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/d40e27d8851b13e4b96131eb271a6e3cf0945cb1",
-                "reference": "d40e27d8851b13e4b96131eb271a6e3cf0945cb1",
+                "url": "https://api.github.com/repos/luyadev/luya-module-admin/zipball/67721d706ba994c4e9fff3a3ac7abc53a6fbc1f6",
+                "reference": "67721d706ba994c4e9fff3a3ac7abc53a6fbc1f6",
                 "shasum": ""
             },
             "require": {
@@ -667,7 +667,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2017-11-07T19:10:59+00:00"
+            "time": "2017-11-21T12:03:26+00:00"
         },
         {
             "name": "luyadev/luya-module-cms",
@@ -675,12 +675,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-module-cms.git",
-                "reference": "f8dc93f5ce1da2712bd868e2f1bf9103c6c1da11"
+                "reference": "0ec34b2de9156207c0d10cfdc07452a1fc65b57b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/f8dc93f5ce1da2712bd868e2f1bf9103c6c1da11",
-                "reference": "f8dc93f5ce1da2712bd868e2f1bf9103c6c1da11",
+                "url": "https://api.github.com/repos/luyadev/luya-module-cms/zipball/0ec34b2de9156207c0d10cfdc07452a1fc65b57b",
+                "reference": "0ec34b2de9156207c0d10cfdc07452a1fc65b57b",
                 "shasum": ""
             },
             "require-dev": {
@@ -733,25 +733,29 @@
                 "yii2",
                 "yii2-cms"
             ],
-            "time": "2017-11-06T07:59:30+00:00"
+            "time": "2017-11-21T12:03:26+00:00"
         },
         {
             "name": "luyadev/luya-testsuite",
-            "version": "1.0.5",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/luyadev/luya-testsuite.git",
-                "reference": "2733ace86b849737a2262cd22c1d9a9af626947b"
+                "reference": "f0c0fda3b9cf98c0dea039ac6c4ad16e3fe6172c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/luyadev/luya-testsuite/zipball/2733ace86b849737a2262cd22c1d9a9af626947b",
-                "reference": "2733ace86b849737a2262cd22c1d9a9af626947b",
+                "url": "https://api.github.com/repos/luyadev/luya-testsuite/zipball/f0c0fda3b9cf98c0dea039ac6c4ad16e3fe6172c",
+                "reference": "f0c0fda3b9cf98c0dea039ac6c4ad16e3fe6172c",
                 "shasum": ""
             },
             "require": {
                 "curl/curl": "^1.0",
-                "phpunit/phpunit": "~6.0.0"
+                "phpunit/phpunit": "~6.0.0",
+                "twig/twig": "^1.0"
+            },
+            "require-dev": {
+                "luyadev/luya-core": "^1.0@dev"
             },
             "type": "luya-module",
             "extra": {
@@ -782,7 +786,7 @@
                 "module",
                 "php"
             ],
-            "time": "2017-09-09T18:08:43+00:00"
+            "time": "2017-11-08T13:50:47+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -2106,6 +2110,71 @@
             "time": "2017-04-07T12:08:54+00:00"
         },
         {
+            "name": "twig/twig",
+            "version": "v1.35.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/daa657073e55b0a78cce8fdd22682fddecc6385f",
+                "reference": "daa657073e55b0a78cce8fdd22682fddecc6385f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/container": "^1.0",
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~3.3@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.35-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                },
+                "psr-4": {
+                    "Twig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com",
+                    "role": "Project Founder"
+                },
+                {
+                    "name": "Twig Team",
+                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "role": "Contributors"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2017-09-27T18:06:46+00:00"
+        },
+        {
             "name": "webmozart/assert",
             "version": "1.2.0",
             "source": {
@@ -2357,6 +2426,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "luyadev/luya-testsuite": 20,
         "luyadev/luya-module-cms": 20,
         "luyadev/luya-core": 20,
         "luyadev/luya-module-admin": 20
