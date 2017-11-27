@@ -17,11 +17,6 @@ final class LineBlock extends BaseGenericBlock
     /**
      * @inheritdoc
      */
-    public $module = 'cms';
-    
-    /**
-     * @inheritdoc
-     */
     public $cacheEnabled = true;
     
     /**

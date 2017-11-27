@@ -18,11 +18,6 @@ final class TitleBlock extends BaseGenericBlock
     /**
      * @inheritdoc
      */
-    public $module = 'cms';
-    
-    /**
-     * @inheritdoc
-     */
     public $cacheEnabled = true;
 
     /**

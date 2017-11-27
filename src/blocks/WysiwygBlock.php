@@ -18,11 +18,6 @@ use luya\cms\frontend\blockgroups\TextGroup;
 final class WysiwygBlock extends BaseGenericBlock
 {
     /**
-     * @inheritdoc
-     */
-    public $module = 'cms';
-    
-    /**
      * @inheritDoc
      */
     public $cacheEnabled = true;

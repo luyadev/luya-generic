@@ -19,11 +19,6 @@ final class TextBlock extends BaseGenericBlock
     /**
      * @inheritdoc
      */
-    public $module = 'cms';
-    
-    /**
-     * @inheritdoc
-     */
     public $cacheEnabled = true;
 
     /**
