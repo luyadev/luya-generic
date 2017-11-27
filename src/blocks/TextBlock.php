@@ -4,9 +4,9 @@ namespace luya\generic\blocks;
 
 use luya\TagParser;
 use luya\generic\Module;
-use luya\generic\blockgroups\TextGroup;
 use luya\cms\base\PhpBlock;
 use luya\generic\BaseGenericBlock;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * Paragraph Text Block.
@@ -31,7 +31,7 @@ final class TextBlock extends BaseGenericBlock
      */
     public function blockGroup()
     {
-        return TextGroup::className();
+        return TextGroup::class;
     }
     
     /**

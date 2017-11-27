@@ -3,9 +3,9 @@
 namespace luya\generic\blocks;
 
 use luya\generic\Module;
-use luya\generic\blockgroups\TextGroup;
 use luya\cms\base\PhpBlock;
 use luya\generic\BaseGenericBlock;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * Heading-Title Block.
@@ -38,7 +38,7 @@ final class TitleBlock extends BaseGenericBlock
      */
     public function blockGroup()
     {
-        return TextGroup::className();
+        return TextGroup::class;
     }
 
     /**

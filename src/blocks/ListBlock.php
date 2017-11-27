@@ -3,9 +3,9 @@
 namespace luya\generic\blocks;
 
 use luya\generic\Module;
-use luya\generic\blockgroups\TextGroup;
 use luya\cms\base\PhpBlock;
 use luya\generic\BaseGenericBlock;
+use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * UL/OL list block.
@@ -46,7 +46,7 @@ final class ListBlock extends BaseGenericBlock
      */
     public function blockGroup()
     {
-        return TextGroup::className();
+        return TextGroup::class;
     }
 
     /**
