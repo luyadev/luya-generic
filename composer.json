@@ -1,8 +1,8 @@
 {
     "name" : "luyadev/luya-generic",
-    "description" : "Generic LUYA Blocks",
+    "description" : "LUYA Generic content",
     "type" : "luya-extension",
-    "keywords" : ["luya-blocks"],
+    "keywords" : ["luya-blocks", "generic", "luya"],
     "license": "MIT",
     "homepage" : "https://luya.io",
     "authors" : [
@@ -13,12 +13,12 @@
         }
     ],
     "support" : {
-        "issues" : "https://github.com/luyadev/luya/issues"
+        "issues" : "https://github.com/luyadev/luya-bootstrap3/issues"
     },
     "autoload" : {
         "psr-4" : {
-            "luya\\generic\\" : "src/",
-            "luya\\generic\\tests\\" : "tests/"
+            "luya\\bootstrap3\\" : "src/",
+            "luya\\bootstrap3\\tests\\" : "tests/"
         }
     },
     "extra": {
