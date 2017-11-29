@@ -3,14 +3,13 @@
 namespace luya\generic\blocks;
 
 use luya\generic\Module;
-use luya\cms\base\PhpBlock;
 use luya\generic\BaseGenericBlock;
 use luya\cms\frontend\blockgroups\TextGroup;
 
 /**
  * WYSIWYG Text Editor Input Block.
  *
- * This block provides a very basic What you see is what you get input.
+ * This block provides a very basic what you see is what you get input option.
  *
  * @author Basil Suter <basil@nadar.io>
  * @since 1.0.0

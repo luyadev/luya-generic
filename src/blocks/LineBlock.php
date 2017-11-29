@@ -3,7 +3,6 @@
 namespace luya\generic\blocks;
 
 use luya\generic\Module;
-use luya\cms\base\PhpBlock;
 use luya\generic\BaseGenericBlock;
 
 /**
