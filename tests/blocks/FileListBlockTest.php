@@ -8,6 +8,13 @@ class FileListBlockTest extends GenericBlockTestCase
 {
     public $blockClass = 'luya\generic\blocks\FileListBlock';
     
+    public function testTranslation()
+    {
+        $this->assertSame('Fileslist', $this->block->name());
+        $this->app->language = 'de';
+        $this->assertSame('Dateiliste', $this->block->name());
+    }
+    
     public function testEmpty()
     {
         $this->assertEmpty($this->renderFrontend());

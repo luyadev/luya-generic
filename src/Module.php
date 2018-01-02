@@ -15,9 +15,7 @@ class Module extends \luya\base\Module
     public static function onLoad()
     {
         self::registerTranslation('generic*', static::staticBasePath() . '/messages', [
-            'fileMap' => [
-                'generic' => 'generic.php',
-            ],
+            'generic' => 'generic.php',
         ]);
     }
     
