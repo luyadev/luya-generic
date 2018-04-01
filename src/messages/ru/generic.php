@@ -38,7 +38,7 @@ return [
     'block_wysiwyg_name' => 'Редактор',
     'block_wysiwyg_content_label' => 'Контент',
     'block_wysiwyg_help_content' => 'Кликните на первую строчку чтобы добавить данные',
-    'block_wysiwyg_no_content' => 'Текст пока не доабавлен.',
+    'block_wysiwyg_no_content' => 'Текст пока не добавлен',
     'block_line_linecolor_grey' => 'Серый',
     'block_line_linecolor_black' => 'Черный',
 
