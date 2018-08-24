@@ -21,7 +21,7 @@ return [
     'block_list_listtype_ul' => 'Lista',
     'block_list_listtype_ol' => 'Numeracja',
     'block_list_no_content' => 'Brak treści.',
-    'block_quote_name' => 'Quote',
+    'block_quote_name' => 'Cytat',
     'block_quote_content_label' => 'Tekst',
     'block_quote_no_content' => 'Żaden cytat nie został jeszcze dostarczony.',
     'block_text_name' => 'Tekst',
@@ -39,7 +39,7 @@ return [
     'block_wysiwyg_content_label' => 'Treść',
     'block_wysiwyg_help_content' => 'Kliknij pierwszy wiersz, aby dodać dane ',
     'block_wysiwyg_no_content' => 'Nie podano jeszcze tekstu.',
-    'block_line_linecolor_grey' => 'Gray',
+    'block_line_linecolor_grey' => 'Szary',
     'block_line_linecolor_black' => 'Czarny',
 
     // rc1
