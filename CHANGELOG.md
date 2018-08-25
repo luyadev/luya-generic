@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file. This projec
 
 ## 1.0.2 (in progress)
 
++ [#10](https://github.com/luyadev/luya-generic/pull/10) Polish translations.
+
 ## 1.0.1 (7. May 2018)
 
 + [#3](https://github.com/luyadev/luya-generic/issues/3) Wrap markdown text with a div if a css class is provided.
