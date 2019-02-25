@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. This project make usage of the [Yii Versioning Strategy](https://github.com/yiisoft/yii2/blob/master/docs/internals/versions.md). In order to read more about upgrading and BC breaks have a look at the [UPGRADE Document](UPGRADE.md).
 
+## 1.0.3 (in progress)
+
+### Added
+
++ [#12](https://github.com/luyadev/luya-generic/pull/12) Possibility to set list block classes 
+
 ## 1.0.2 (4. September 2018)
 
 + [#8](https://github.com/luyadev/luya-generic/pull/8) Turkish added

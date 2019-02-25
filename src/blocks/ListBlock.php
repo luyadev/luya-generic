@@ -50,12 +50,16 @@ final class ListBlock extends BaseGenericBlock
     {
         return [
             'vars' => [
-                ['var' => 'elements', 'label' => Module::t('block_list_elements_label'), 'type' => 'zaa-list-array'],
-                ['var' => 'listType', 'label' => Module::t('block_list_listtype_label'), 'initvalue' => 'ul', 'type' => 'zaa-select', 'options' => [
+                ['var' => 'elements', 'label' => Module::t('block_list_elements_label'), 'type' => self::TYPE_LIST_ARRAY],
+                ['var' => 'listType', 'label' => Module::t('block_list_listtype_label'), 'initvalue' => 'ul', 'type' => self::TYPE_SELECT, 'options' => [
                         ['value' => 'ul', 'label' => Module::t('block_list_listtype_ul')],
                         ['value' => 'ol', 'label' => Module::t('block_list_listtype_ol')],
                     ],
                 ],
+            ],
+            'cfgs' => [
+                ['var' => 'listCssClass', 'label' => Module::t('block_cfg_list_css_class'), 'type' => self::TYPE_TEXT],
+                ['var' => 'elementCssClass', 'label' => Module::t('block_cfg_element_css_class'), 'type' => self::TYPE_TEXT],
             ],
         ];
     }
