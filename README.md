@@ -5,6 +5,7 @@
 # Generic
 
 [![LUYA](https://img.shields.io/badge/Powered%20by-LUYA-brightgreen.svg)](https://luya.io)
+[![Build Status](https://travis-ci.org/luyadev/luya-generic.svg?branch=master)](https://travis-ci.org/luyadev/luya-generic)
 [![Latest Stable Version](https://poser.pugx.org/luyadev/luya-generic/v/stable)](https://packagist.org/packages/luyadev/luya-generic)
 [![Total Downloads](https://poser.pugx.org/luyadev/luya-generic/downloads)](https://packagist.org/packages/luyadev/luya-generic)
 [![Slack Support](https://img.shields.io/badge/Slack-luyadev-yellowgreen.svg)](https://slack.luya.io/)
