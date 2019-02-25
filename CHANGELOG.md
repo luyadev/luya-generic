@@ -6,14 +6,14 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
-+ [#12](https://github.com/luyadev/luya-generic/pull/12) Possibility to set list block classes 
++ [#12](https://github.com/luyadev/luya-generic/pull/12) Possibility to set list block classes via configuration.
 
 ## 1.0.2 (4. September 2018)
 
-+ [#8](https://github.com/luyadev/luya-generic/pull/8) Turkish added
-+ [#9](https://github.com/luyadev/luya-generic/pull/9) Dutch added
-+ [#7](https://github.com/luyadev/luya-generic/pull/7) French update
-+ [#10](https://github.com/luyadev/luya-generic/pull/10) Polish translations.
++ [#8](https://github.com/luyadev/luya-generic/pull/8) Added Turkish translations
++ [#9](https://github.com/luyadev/luya-generic/pull/9) Added Dutch translations
++ [#7](https://github.com/luyadev/luya-generic/pull/7) Added French translations
++ [#10](https://github.com/luyadev/luya-generic/pull/10) Added Polish translations
 
 ## 1.0.1 (7. May 2018)
 
