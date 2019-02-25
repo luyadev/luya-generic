@@ -41,10 +41,14 @@ return [
       'block_wysiwyg_no_content' => "Todavía no se ha proporcionado ningún texto.",
       'block_line_linecolor_grey' => 'Gris',
       'block_line_linecolor_black' => 'Negro',
-		
+      
       // rc1
       'block_cfg_additonal_css_class' => 'Clases CSS',
 
-       // rc3
+      // rc3
       'block_file_list_admin_empty' => 'No se ha seleccionado aún ningún archivo.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];

@@ -46,4 +46,8 @@ return [
 
     // rc3
     'block_file_list_admin_empty' => 'Er is nog geen bestand geselecteerd.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];

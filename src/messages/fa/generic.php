@@ -19,7 +19,7 @@ return [
     'block_list_listtype_label' => 'نوع',
     'block_list_listtype_ul' => 'لیست',
     'block_list_listtype_ol' => 'عددی',
-	'block_list_no_content' => 'هنوز متنی انتخاب نشده است',
+    'block_list_no_content' => 'هنوز متنی انتخاب نشده است',
     'block_quote_name' => 'نقل قول',
     'block_quote_content_label' => 'متن',
     'block_quote_no_content' => 'هنوز نقل قولی وجود ندارد',
@@ -46,5 +46,8 @@ return [
    
     // rc3
     'block_file_list_admin_empty' => 'هنور هیچ فایلی انتخاب نشده است',
+    
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];
-

@@ -44,7 +44,11 @@ return [
     
     // rc1
     'block_cfg_additonal_css_class' => 'CSS класи',
-		
+        
     // rc3
     'block_file_list_admin_empty' => 'Не виьбрано ще жодгного файлу',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];

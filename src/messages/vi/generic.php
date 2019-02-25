@@ -47,4 +47,8 @@ return [
     
     // rc3
     'block_file_list_admin_empty' => 'Không có tệp tin nào được chọn.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];

@@ -20,7 +20,7 @@ return [
     'block_list_listtype_label' => 'Tiğ',
     'block_list_listtype_ul' => 'Listeleme',
     'block_list_listtype_ol' => 'Numaralandırma',
-	'block_list_no_content' => 'Henüz içerik yok.',
+    'block_list_no_content' => 'Henüz içerik yok.',
     'block_quote_name' => 'Alıntı',
     'block_quote_content_label' => 'Metin',
     'block_quote_no_content' => 'Henüz bir alıntı bilgisi girilmedi.',
@@ -47,4 +47,8 @@ return [
    
     // rc3
     'block_file_list_admin_empty' => 'Henüz bir dosya deçilmedi.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];

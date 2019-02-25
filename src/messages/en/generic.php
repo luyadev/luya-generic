@@ -20,7 +20,7 @@ return [
     'block_list_listtype_label' => 'Type',
     'block_list_listtype_ul' => 'Listing',
     'block_list_listtype_ol' => 'Numeration',
-	'block_list_no_content' => 'No content yet.',
+    'block_list_no_content' => 'No content yet.',
     'block_quote_name' => 'Quote',
     'block_quote_content_label' => 'Text',
     'block_quote_no_content' => 'No quote has been provided yet.',
@@ -48,6 +48,7 @@ return [
     // rc3
     'block_file_list_admin_empty' => 'No file has been selected yet.',
 
+    // 1.0.3
     'block_cfg_list_css_class' => 'List css class',
     'block_cfg_element_css_class' => 'Element css class',
 ];

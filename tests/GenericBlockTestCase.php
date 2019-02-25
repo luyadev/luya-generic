@@ -45,7 +45,7 @@ abstract class GenericBlockTestCase extends CmsBlockTestCase
                 'title' => 'Homepage',
                 'alias' => 'home',
                 'description' => '',
-                'keywords' => NULL,
+                'keywords' => null,
                 'create_user_id' => '1',
                 'update_user_id' => '1',
                 'timestamp_create' => '1457091369',

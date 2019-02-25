@@ -45,6 +45,10 @@ return [
     // rc1
     'block_cfg_additonal_css_class' => 'CSS-Klasse', // this is not block related and can be ussed in all blocks.
     
-	// rc3
+    // rc3
     'block_file_list_admin_empty' => 'Es wurden noch keine Dateien ausgewählt.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'CSS-Klasse der Liste',
+    'block_cfg_element_css_class' => 'CSS-Klasse des Elements',
 ];

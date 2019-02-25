@@ -41,10 +41,14 @@ return [
     'block_wysiwyg_no_content' => 'Δεν έχει δοθεί κείμενο ακόμη.',
     'block_line_linecolor_grey' => 'Γκρι',
     'block_line_linecolor_black' => 'Μαύρο',
-		
+        
     // rc1
     'block_cfg_additonal_css_class' => 'CSS classes',
         
     // rc3
     'block_file_list_admin_empty' => 'No files has been selected yet.',
+
+    // 1.0.3
+    'block_cfg_list_css_class' => 'List css class',
+    'block_cfg_element_css_class' => 'Element css class',
 ];
