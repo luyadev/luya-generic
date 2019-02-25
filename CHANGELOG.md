@@ -6,7 +6,7 @@ All notable changes to this project will be documented in this file. This projec
 
 ### Added
 
-+ [#11](https://github.com/luyadev/luya-generic/pull/11) Possibility to set list block classes 
++ [#12](https://github.com/luyadev/luya-generic/pull/12) Possibility to set list block classes 
 
 ## 1.0.2 (4. September 2018)
 
