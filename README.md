@@ -19,5 +19,5 @@ Contains generic frontend content:
 For the installation of modules Composer is required.
 
 ```sh
-composer require luyadev/luya-generic:~1.0.0
+composer require luyadev/luya-generic:^1.0
 ```
