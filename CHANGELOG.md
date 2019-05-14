@@ -5,7 +5,7 @@ In order to read more about upgrading and BC breaks have a look at the [UPGRADE 
 
 ## 1.0.4 (14. May 2019)
 
-+ Use new {{DS}} seperator for block paths.
++ Use new {{DS}} separator for block paths.
 
 ## 1.0.3 (25. February 2019)
 
