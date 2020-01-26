@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $this \luya\cms\base\PhpBlockView
+ * @var \luya\cms\base\PhpBlockView $this
 */
 $cssClass = $this->cfgValue('cssClass');
 ?>

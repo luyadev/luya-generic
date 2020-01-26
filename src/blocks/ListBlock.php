@@ -60,6 +60,11 @@ final class ListBlock extends BaseGenericBlock
             'cfgs' => [
                 ['var' => 'listCssClass', 'label' => Module::t('block_cfg_list_css_class'), 'type' => self::TYPE_TEXT],
                 ['var' => 'elementCssClass', 'label' => Module::t('block_cfg_element_css_class'), 'type' => self::TYPE_TEXT],
+                ['var' => 'textType', 'label' => Module::t('block_text_texttype_label'), 'initvalue' => 0, 'type' => 'zaa-select', 'options' => [
+                    ['value' => 0, 'label' => Module::t('block_text_texttype_normal')],
+                    ['value' => 1, 'label' => Module::t('block_text_texttype_markdown')],
+                ],
+            ],
             ],
         ];
     }

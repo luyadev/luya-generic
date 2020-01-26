@@ -24,4 +24,12 @@ class ListBlockTest extends GenericBlockTestCase
         $this->block->setVarValues(['elements' => [['value' => 1], ['value' => 2]], 'listType' => 'ol']);
         $this->assertSame('<ol><li>1</li><li>2</li></ol>', $this->renderFrontendNoSpace());
     }
+
+    public function testMarkdownLines()
+    {
+        $this->block->setVarValues(['elements' => [['value' => '**foo**bar'], ['value' => 'bar']], 'listType' => 'ol']);
+        $this->block->setCfgValues(['textType' => 1]);
+        
+        $this->assertSame('<ol><li><strong>foo</strong>bar</li><li>bar</li></ol>', $this->renderFrontendNoSpace());
+    }
 }

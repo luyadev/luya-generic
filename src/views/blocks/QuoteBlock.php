@@ -1,6 +1,6 @@
 <?php
 /**
- * @var $this \luya\cms\base\PhpBlockView
+ * @var \luya\cms\base\PhpBlockView $this
 */
 ?>
 <?= $this->varValue('content', null, '<blockquote>{{content}}</blockquote>'); ?>
