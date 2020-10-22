@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'block_file_list_name' => 'Liste de fichiers',
+    'block_file_list_name' => 'Liste des fichiers',
     'block_file_list_files_label' => 'Fichiers',
     'block_file_list_files_showtype_label' => 'Afficher le type de fichier ?',
     'block_file_list_showtype_yes' => 'Oui',
@@ -49,6 +49,6 @@ return [
     'block_file_list_admin_empty' => 'Aucun fichier n\'a été sélectionné.',
 
     // 1.0.3
-    'block_cfg_list_css_class' => 'List css class',
-    'block_cfg_element_css_class' => 'Element css class',
+    'block_cfg_list_css_class' => 'Liste des classes css',
+    'block_cfg_element_css_class' => 'Classe css de l\'élément',
 ];
