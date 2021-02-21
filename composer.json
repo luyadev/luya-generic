@@ -32,7 +32,7 @@
         }
     },
     "require-dev": {
-        "luyadev/luya-testsuite": "~2.0.0"
+        "luyadev/luya-testsuite": "^2.0"
     },
     "repositories": [
         {
