@@ -4,9 +4,9 @@
 */
 ?>
 <?php if (!empty($this->extraValue('fileList'))): ?>
-<ul>
+<<?= $this->extraValue('listType', 'ul'); ?><?=$this->cfgValue('listCssClass', null, ' class="{{listCssClass}}"')?>>
 	<?php foreach ($this->extraValue('fileList') as $file): ?>
-		<li><a target="_blank" href="<?= $file['href']; ?>"><?= $file['caption']; ?><?php if ($this->cfgValue('showType')): ?> (<?= $file['extension'];?>)<?php endif; ?></a></li>
+		<li<?= $this->cfgValue('elementCssClass', null, ' class="{{elementCssClass}}"')?>><a target="_blank" href="<?= $file['href']; ?>"><?= $file['caption']; ?><?php if ($this->cfgValue('showType')): ?> (<?= $file['extension'];?>)<?php endif; ?></a></li>
 	<?php endforeach; ?>
-</ul>
+</<?= $this->extraValue('listType', 'ul'); ?>>
 <?php endif; ?>

@@ -25,7 +25,16 @@ class FileListBlockTest extends GenericBlockTestCase
         $this->block->addExtraVar('fileList', [
                 ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
         ]);
-        $this->assertContains('<ul><li><a target="_blank" href="path/to/image.jpg">foobar</a></li></ul>', $this->renderFrontendNoSpace());
+        $this->assertStringContainsString('<ul><li><a target="_blank" href="path/to/image.jpg">foobar</a></li></ul>', $this->renderFrontendNoSpace());
+    }
+
+    public function testOrderedList()
+    {
+        $this->block->setVarValues(['listType' => 'ol']);
+        $this->block->addExtraVar('fileList', [
+            ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
+        ]);
+        $this->assertStringContainsString('<ol><li><a target="_blank" href="path/to/image.jpg">foobar</a></li></ol>', $this->renderFrontendNoSpace());
     }
 
     public function testFilesWithSuffix()
@@ -34,6 +43,15 @@ class FileListBlockTest extends GenericBlockTestCase
         $this->block->addExtraVar('fileList', [
                 ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
         ]);
-        $this->assertContains('<ul><li><a target="_blank" href="path/to/image.jpg">foobar (jpg)</a></li></ul>', $this->renderFrontendNoSpace());
+        $this->assertStringContainsString('<ul><li><a target="_blank" href="path/to/image.jpg">foobar (jpg)</a></li></ul>', $this->renderFrontendNoSpace());
+    }
+
+    public function testListWithCssClasses()
+    {
+        $this->block->setCfgValues(['listCssClass' => 'foo', 'elementCssClass' => 'bar']);
+        $this->block->addExtraVar('fileList', [
+            ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
+        ]);
+        $this->assertStringContainsString('<ul class="foo"><li class="bar"><a target="_blank" href="path/to/image.jpg">foobar</a></li></ul>', $this->renderFrontendNoSpace());
     }
 }

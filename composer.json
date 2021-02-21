@@ -32,6 +32,12 @@
         }
     },
     "require-dev": {
-        "luyadev/luya-testsuite": "~1.0.6"
-    }
+        "luyadev/luya-testsuite": "~2.0.0"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }

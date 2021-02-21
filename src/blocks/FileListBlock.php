@@ -43,8 +43,15 @@ final class FileListBlock extends BaseGenericBlock
         return [
             'vars' => [
                 ['var' => 'files', 'label' => Module::t("block_file_list_files_label"), 'type' => 'zaa-file-array-upload'],
+                ['var' => 'listType', 'label' => Module::t('block_list_listtype_label'), 'initvalue' => 'ul', 'type' => self::TYPE_SELECT, 'options' => [
+                        ['value' => 'ul', 'label' => Module::t('block_list_listtype_ul')],
+                        ['value' => 'ol', 'label' => Module::t('block_list_listtype_ol')],
+                    ],
+                ],
             ],
             'cfgs' => [
+                ['var' => 'listCssClass', 'label' => Module::t('block_cfg_list_css_class'), 'type' => self::TYPE_TEXT],
+                ['var' => 'elementCssClass', 'label' => Module::t('block_cfg_element_css_class'), 'type' => self::TYPE_TEXT],
                 ['var' => 'showType', 'label' => Module::t("block_file_list_files_showtype_label"), 'initvalue' => 0, 'type' => 'zaa-select', 'options' => [
                         ['value' => '1', 'label' => Module::t("block_file_list_showtype_yes")],
                         ['value' => '0', 'label' => Module::t("block_file_list_showtype_no")],
@@ -60,6 +67,7 @@ final class FileListBlock extends BaseGenericBlock
     public function extraVars()
     {
         return [
+            'listType' => $this->getVarValue('listType', 'ul'),
             'fileList' => BlockHelper::fileArrayUpload($this->getVarValue('files')),
         ];
     }
