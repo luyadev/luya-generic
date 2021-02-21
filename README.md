@@ -8,7 +8,7 @@
 [![Build Status](https://travis-ci.org/luyadev/luya-generic.svg?branch=master)](https://travis-ci.org/luyadev/luya-generic)
 [![Latest Stable Version](https://poser.pugx.org/luyadev/luya-generic/v/stable)](https://packagist.org/packages/luyadev/luya-generic)
 [![Total Downloads](https://poser.pugx.org/luyadev/luya-generic/downloads)](https://packagist.org/packages/luyadev/luya-generic)
-[![Slack Support](https://img.shields.io/badge/Slack-luyadev-yellowgreen.svg)](https://slack.luya.io/)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/8d7185ec0a025075ceb8/test_coverage)](https://codeclimate.com/github/luyadev/luya-generic/test_coverage)
 
 Contains generic frontend content:
 
