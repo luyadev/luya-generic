@@ -5,7 +5,8 @@ In order to read more about upgrading and BC breaks have a look at the [UPGRADE 
 
 ## 1.1.0
 
-+ Updated testsuite
++ [#16](https://github.com/luyadev/luya-generic/issues/16) Add list type and CSS classes to `FileListBlock`
++ Updated Composer and `luyadev/luya-testsuite`
 
 ## 1.0.6 (11. February 2020)
 
