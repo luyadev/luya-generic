@@ -25,7 +25,7 @@ class FileListBlockTest extends GenericBlockTestCase
         $this->block->addExtraVar('fileList', [
                 ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
         ]);
-        $this->assertContains('<ul><li><a target="_blank" href="path/to/image.jpg">foobar</a></li></ul>', $this->renderFrontendNoSpace());
+        $this->assertStringContainsString('<ul><li><a target="_blank" href="path/to/image.jpg">foobar</a></li></ul>', $this->renderFrontendNoSpace());
     }
 
     public function testFilesWithSuffix()
@@ -34,6 +34,6 @@ class FileListBlockTest extends GenericBlockTestCase
         $this->block->addExtraVar('fileList', [
                 ['href' => 'path/to/image.jpg', 'caption' => 'foobar', 'extension' => 'jpg'],
         ]);
-        $this->assertContains('<ul><li><a target="_blank" href="path/to/image.jpg">foobar (jpg)</a></li></ul>', $this->renderFrontendNoSpace());
+        $this->assertStringContainsString('<ul><li><a target="_blank" href="path/to/image.jpg">foobar (jpg)</a></li></ul>', $this->renderFrontendNoSpace());
     }
 }
