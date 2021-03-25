@@ -3,12 +3,16 @@
 All notable changes to this project will be documented in this file. This project adheres to [Semantic Versioning](http://semver.org/).
 In order to read more about upgrading and BC breaks have a look at the [UPGRADE Document](UPGRADE.md).
 
-## 1.1.0 (21. February 2020)
+## 1.1.1 (25. March 2021)
+
++ [#18](https://github.com/luyadev/luya-generic/pull/18) Bulgarian translations
+
+## 1.1.0 (21. February 2021)
 
 + [#16](https://github.com/luyadev/luya-generic/issues/16) Add list type and CSS classes to `FileListBlock`
 + Updated Composer and `luyadev/luya-testsuite`
 
-## 1.0.6 (11. February 2020)
+## 1.0.6 (11. February 2021)
 
 + Small french translation updates.
 
